@@ -167,11 +167,6 @@
                         @click="
                           () => {
                             if (item1.status === 0 || item1.status) {
-                              //reasonData.name = item1.scoringThemeName;
-                              //reasonData.score = item1.scoring;
-                              //reasonData.num = i1;
-                              //messageReason = item1.operationReason;
-                              //showPopup = true;
                               setReason(item1, i1);
                             } else {
                               dangerDo('请先选择等次');
